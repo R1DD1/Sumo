@@ -6,12 +6,9 @@ public final class Sumo extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
-
+        getServer().getPluginManager().registerEvents(new SumoMechanic(), this);
+        getCommand("start").setExecutor(new Commands());
     }
 
-    @Override
-    public void onDisable() {
-        // Plugin shutdown logic
-    }
+
 }

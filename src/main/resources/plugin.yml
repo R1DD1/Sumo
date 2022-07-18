@@ -2,3 +2,5 @@ name: Sumo
 version: '${project.version}'
 main: sumo.sumobyr1dd1.Sumo
 authors: [ R1DD1 ]
+commands:
+  start:
